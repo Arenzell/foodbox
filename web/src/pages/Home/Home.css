@@ -1,0 +1,37 @@
+.home-container {
+    margin-top: 100px;
+}
+
+.store-card-list-item {
+    margin-bottom: 25px;
+}
+
+.home-section {
+    height: 552px;
+    min-height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}

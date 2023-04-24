@@ -1,0 +1,30 @@
+{
+    "name": "foodbox-api",
+    "version": "0.1.0",
+    "private": false,
+    "description": "A proof of concept project similar to Loot Boxes in games, but for order food",
+    "license": "MIT",
+    "author": {
+        "name": "Thyago Schleuss",
+        "email": "tschleuss@gmail.com",
+        "url": "https://github.com/tschleuss"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "config-js": "^1.1.9",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "express-validator": "^5.0.3",
+        "winston": "^3.0.0-rc1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.2",
+        "babel-eslint": "7",
+        "eslint": "^4.18.2",
+        "eslint-loader": "^2.0.0",
+        "eslint-plugin-import": "^2.9.0"
+    },
+    "scripts": {
+        "start": "./node_modules/.bin/nodemon src/server.js"
+    }
+}

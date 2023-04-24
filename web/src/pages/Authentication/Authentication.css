@@ -1,0 +1,131 @@
+.form-group label {
+    font-size: .9em;
+}
+
+.form-group input::placeholder {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.form-title {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 35px;
+    letter-spacing: -.4px;
+    color: #333;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.text-light {
+    color: #fff;
+}
+
+.auth-section {
+    height: 552px;
+    min-height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.auth-container {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 5px -2px rgba(0, 0, 0, .2), 0 7px 10px 1px rgba(0, 0, 0, .14), 0 2px 16px 1px rgba(0, 0, 0, .12);
+}
+
+.auth-form {
+    color: #2d2d2de3;
+    padding: 16px;
+}
+
+.form-button-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mbutton {
+    background: transparent;
+    border: 0;
+    border-radius: 4px;
+    line-height: 36px;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+    outline: none;
+    padding: 0 10px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .01em;
+}
+
+.mbutton:hover,
+.mbutton:active,
+.mbutton:focus {
+    text-decoration: none;
+}
+
+.mbutton.info {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.mbutton.info:not([disabled]):hover {
+    background-color: #1e88e5;
+}
+
+.mbutton.default {
+    background-color: #BE2C2C;
+    color: #fff;
+}
+
+.mbutton.default:not([disabled]):hover {
+    background-color: #952222;
+}
+
+.mbutton:not([disabled]).raised {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+}
+
+.mbutton:not([disabled]).raised:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+}
+
+.btn-action {
+    margin-top: 50px;
+    width: 300px;
+    display: block;
+    border: 1px solid #fff;
+    padding: 15px 40px;
+    background-color: transparent;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-action:focus,
+.btn-action:active {
+    outline: none;
+}
+
+.btn-action:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}

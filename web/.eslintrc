@@ -1,0 +1,56 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "env": {
+        "node": true,
+        "es6": true,
+        "browser": true,
+        "mocha": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true,
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "comma-dangle": ["error", "never"],
+        "no-const-assign": ["error"],
+        "no-extra-semi": ["error"],
+        "semi": ["error", "never"],
+        "no-fallthrough": ["error"],
+        "no-empty": ["error"],
+        "no-mixed-spaces-and-tabs": ["error"],
+        "no-redeclare": ["error"],
+        "no-this-before-super": ["error"],
+        "no-undef": ["error"],
+        "no-unreachable": ["error"],
+        "no-unused-vars": ["error", { "vars": "all", "args": "none", "ignoreRestSiblings": false }],
+        "no-use-before-define": ["error", { "functions": false, "classes": false, "variables": false }],
+        "constructor-super": ["error"],
+        "curly": ["error", "all"],
+        "eqeqeq": ["error", "always"],
+        "func-names": ["error", "never"],
+        "valid-typeof": ["error"],
+        "strict": ["error", "safe"],
+        "camelcase": ["error", { "properties": "always" }],
+        "arrow-parens": ["error", "as-needed"],
+        "object-shorthand": ["error", "always", { "avoidQuotes": true, "ignoreConstructors": true }],
+        "arrow-body-style": ["error", "as-needed"],
+        "no-trailing-spaces": ["error", { "skipBlankLines": false, "ignoreComments": false }],
+        "max-len": ["error", { "code": 150, "comments": 150 }],
+        "complexity": ["error", { "max": 10 }],
+        "max-depth": ["error", { "max": 3 }],
+        "max-params": ["error", { "max": 7 }],
+        "no-alert": ["error"],
+        "no-debugger": ["error"],
+        "no-console": ["off"]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "foodbox",
+    "version": "0.1.0",
+    "private": false,
+    "description": "A proof of concept project similar to Loot Boxes in games, but for order food",
+    "license": "MIT",
+    "author": {
+        "name": "Thyago Schleuss",
+        "email": "tschleuss@gmail.com",
+        "url": "https://github.com/tschleuss"
+    },
+    "devDependencies": {
+        "concurrently": "^3.5.1"
+    },
+    "scripts": {
+        "postinstall": "concurrently --kill-others-on-fail \"yarn install-server\" \"yarn install-web\" ",
+        "install-server": "cd server && yarn install",
+        "install-web": "cd web && yarn install",
+        "start": "concurrently --kill-others-on-fail --names \"SERVER,WEB\" -c \"yellow.bgBlack,green.bgBlack\" \"yarn server\" \"yarn web\" ",
+        "server": "cd server && yarn start",
+        "web": "cd web && yarn start"
+    }
+}

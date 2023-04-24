@@ -1,0 +1,21 @@
+.nav-search {
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.search-input {
+    line-height: 2em;
+    border: 0;
+    color: #ccc;
+    outline: none;
+    width: 100%;
+}
+
+.search-input::placeholder {
+    color: #ccc;
+    opacity: 1;
+}
